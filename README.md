@@ -6,8 +6,9 @@ Explanations how to generate pdf are included inside mltheartsc.py
 For Tar♡n Southern youtube.com/user/TarynSouthern from ♡ By Aleksandar Josifoski about.me/josifsk  
   
 Licence: TA https://frutarian-sf-travellers.blogspot.com/2018/02/licence-ta.html
-
-2018 February
+fbpage: https://facebook.com/moviebibleTA  
+  
+2018 February  
 
 
 
