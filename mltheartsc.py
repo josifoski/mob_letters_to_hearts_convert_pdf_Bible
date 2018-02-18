@@ -1,6 +1,6 @@
 #! /usr/bin/env python3.5
 # Python program for creating Bible pdf translations one verse per page with converting some of letters with ❤s
-# For Tar♡n Southern youtube.com/user/TarynSouthern from ♡ By Aleksandar Josifoski about.me/josifsk
+# By Aleksandar Josifoski about.me/josifsk
 # 2017 March; 2018  February;
 # Program is dependend on pyfpdf, most easy way to install pyfpdf is pip install -U fpdf
 # Licence TA https://frutarian-sf-travellers.blogspot.com/2018/02/licence-ta.html
@@ -32,7 +32,7 @@ btest = False
 create_TOC_only = False  # First, you will need to start program with True for create_TOC_only, and False for btest
                         # and in next line tocpages =  to put number of table of contents pages
 tocpages = 13
-Devoted_to_Name = 'TtRrYyNn&LlKkSsDd' # This option is to convert letters to hearts. Tip: using consonants only looks nice, and set of them!?
+Devoted_to_Name = 'TA' # This option is to convert letters to hearts. Tip: using consonants only looks nice, and set of them!?
 convert_Devoted = True
 top_first_page_text = Devoted_to_Name + ' 2 ❤'
 
@@ -99,12 +99,12 @@ for text in translations_titles:
 pdf.ln()
 pdf.set_text_color(r = 255, g = 165, b = 0)
 pdf.set_font(family = font_name, style = '', size = 4)
-text = 'for hpl my ♕ https://youtube.com/user/TarynSouthern'
-url = 'https://youtube.com/user/TarynSouthern'
-pdf.cell(w=0, h=1, txt=text, border=0, ln=1, align='L', fill=0, link = url)
-text = 'by         ♔ https://about.me/josifsk'
-url = 'https://about.me/josifsk'
-pdf.cell(w=0, h=4, txt=text, border=0, ln=1, align='L', fill=0, link = url)
+text = ''
+url = ''
+#pdf.cell(w=0, h=1, txt=text, border=0, ln=1, align='L', fill=0, link = url)
+text = ''
+url = ''
+#pdf.cell(w=0, h=4, txt=text, border=0, ln=1, align='L', fill=0, link = url)
 
 pdf.ln()
 
