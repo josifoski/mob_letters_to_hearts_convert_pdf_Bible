@@ -3,7 +3,7 @@
 # By Aleksandar Josifoski about.me/josifsk
 # 2017 March; 2018  February;
 # Program is dependend on pyfpdf, most easy way to install pyfpdf is pip install -U fpdf
-# Licence TA https://frutarian-sf-travellers.blogspot.com/2018/02/licence-ta.html
+# Licence AA https://frutarian-sf-travellers.blogspot.mk/2018/03/licence-aa.html
 
 # You can see correct format for Bible texts as input in /Bibles directory
 
@@ -32,7 +32,7 @@ btest = False
 create_TOC_only = False  # First, you will need to start program with True for create_TOC_only, and False for btest
                         # and in next line tocpages =  to put number of table of contents pages
 tocpages = 13
-Devoted_to_Name = 'TA' # This option is to convert letters to hearts. Tip: using consonants only looks nice, and set of them!?
+Devoted_to_Name = 'AA' # This option is to convert letters to hearts. Tip: using consonants only looks nice, and set of them!?
 convert_Devoted = True
 top_first_page_text = Devoted_to_Name + ' 2 ❤'
 
